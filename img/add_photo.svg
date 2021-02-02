@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169" height="181" viewBox="0 0 169 181">
+  <defs>
+    <filter id="base" x="0" y="0" width="169" height="181" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#e7eaf0" flood-opacity="0.471"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="add_photo" transform="translate(-715.5 -500.5)">
+    <g transform="matrix(1, 0, 0, 1, 715.5, 500.5)" filter="url(#base)">
+      <g id="base-2" data-name="base" transform="translate(22.5 22.5)" fill="#fff" stroke="#c5c5c5" stroke-width="2">
+        <rect width="124" height="136" rx="10" stroke="none"/>
+        <rect x="1" y="1" width="122" height="134" rx="9" fill="none"/>
+      </g>
+    </g>
+    <g id="icons_light_add" data-name="icons/light/add" transform="translate(790 581)">
+      <path id="gray_add" d="M1486.062,677.212v-8.125h-8.124a.937.937,0,1,1,0-1.875h8.124v-8.125a.938.938,0,0,1,1.876,0v8.125h8.124a.937.937,0,1,1,0,1.875h-8.124v8.125a.938.938,0,1,1-1.876,0Z" transform="translate(-1477 -658.15)" fill="#c5c5c5"/>
+    </g>
+  </g>
+</svg>

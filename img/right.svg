@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.184" height="31.2" viewBox="0 0 31.184 31.2">
+  <g id="right" transform="translate(-364.731 -606.558)">
+    <path id="Label" d="M1809.085,146.574l31.184,31.184V156.537s-1.294-10.442-13.173-9.963A170.634,170.634,0,0,1,1809.085,146.574Z" transform="translate(-1444.354 460)" fill="#ff8bbc"/>
+    <path id="Tick_icon" data-name="Tick icon" d="M418.273,228.266l3.207,3.207,5.686-5.686" transform="translate(-35.84 388.366)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

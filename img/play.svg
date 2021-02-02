@@ -1,0 +1,8 @@
+<svg id="play" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <circle id="Ellipse_425" data-name="Ellipse 425" cx="22.5" cy="22.5" r="22.5" fill="#2d489c"/>
+  <g id="play-arrow" transform="translate(19 15)">
+    <g id="play-arrow-2" data-name="play-arrow" transform="translate(0)">
+      <path id="Path_33362" data-name="Path 33362" d="M38.25,0V15.882l10.7-7.941Z" transform="translate(-38.25)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

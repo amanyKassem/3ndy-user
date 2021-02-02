@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bdf0a79-fbaa-46ea-9800-98d63acf27bb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hS12PjlBT4Vu0ipM2IBtka2U47" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bdf0a79-fbaa-46ea-9800-98d63acf27bb" name="Default Changelist" comment="" />
+      <created>1542870285228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542870285228</updated>
+      <workItem from="1542870300419" duration="807000" />
+      <workItem from="1548572643707" duration="2994000" />
+      <workItem from="1548588786096" duration="6008000" />
+      <workItem from="1548660787724" duration="4462000" />
+      <workItem from="1549178233795" duration="29000" />
+      <workItem from="1549184167950" duration="6798000" />
+      <workItem from="1549364079129" duration="6277000" />
+      <workItem from="1549448961482" duration="11383000" />
+      <workItem from="1549525268458" duration="7868000" />
+      <workItem from="1549623397127" duration="165000" />
+      <workItem from="1549634329905" duration="5000" />
+      <workItem from="1549806657027" duration="2437000" />
+      <workItem from="1549870567159" duration="23000" />
+      <workItem from="1550832464549" duration="2562000" />
+      <workItem from="1571761366546" duration="14486000" />
+      <workItem from="1571934376018" duration="12214000" />
+      <workItem from="1572012518413" duration="1418000" />
+      <workItem from="1572015669123" duration="16737000" />
+      <workItem from="1572088994345" duration="10058000" />
+      <workItem from="1572268153479" duration="5328000" />
+      <workItem from="1573152817558" duration="629000" />
+      <workItem from="1599377788162" duration="352000" />
+      <workItem from="1599378337032" duration="234000" />
+      <workItem from="1599379138144" duration="2366000" />
+      <workItem from="1599383907242" duration="16357000" />
+      <workItem from="1599460318203" duration="29642000" />
+      <workItem from="1599547138357" duration="25898000" />
+      <workItem from="1599587552188" duration="14017000" />
+      <workItem from="1599633496449" duration="4085000" />
+      <workItem from="1599639634204" duration="22332000" />
+      <workItem from="1599677758898" duration="2454000" />
+<<<<<<< HEAD
+      <workItem from="1599719846049" duration="25994000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="256419000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15960665" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.25945538" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15506808" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.25945538" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+=======
+      <workItem from="1599719846049" duration="25561000" />
+      <workItem from="1599989477476" duration="5903000" />
+      <workItem from="1600004967428" duration="2322000" />
+      <workItem from="1600068233150" duration="12777000" />
+      <workItem from="1600087395841" duration="3928000" />
+      <workItem from="1600585897150" duration="69000" />
+    </task>
+    <servers />
+  </component>
+>>>>>>> d8223ea68eb17ab3f8ca07ee3e8e9c35a4f5b139
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="833" y="445" key="publish.login" timestamp="1599996355725">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="833" y="445" key="publish.login/0.0.1920.1080@0.0.1920.1080" timestamp="1599996355725" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1600073744264">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1600073744264" />
+  </component>
+</project>

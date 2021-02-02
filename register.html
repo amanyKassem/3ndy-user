@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>3ndy</title>
+    <link rel="shortcut icon" href="img/fav_icon.png">
+
+    <link href="css/all.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/hover.css" rel="stylesheet"/>
+    <link href="css/animate.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <!--    <link href="css/styleRTL.css" rel="stylesheet" />-->
+
+</head>
+<body>
+
+<!-- Start Loading Page -->
+
+<div class="layer-preloader">
+    <img src="img/logo.svg" alt="3ndy logo">
+</div>
+
+<!-- End Loading Page -->
+
+
+<!--start auth form-->
+<div class="authForm">
+    <img src="img/authBg.jpg" class="authImg" alt="cafe">
+    <form action="verificationCode.html">
+
+        <img src="img/white_logo.png" class="logo" alt="logo">
+
+        <h5>تسجيل</h5>
+        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص</p>
+
+        <div class="form-group">
+            <label for="username">اسم المستخدم</label>
+            <input type="tel" class="form-control" id="username" >
+            <i class="fas fa-check"></i>
+            <div class="inputBorder"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">رقم الجوال</label>
+            <input type="tel" class="form-control" id="phone" >
+            <i class="fas fa-check"></i>
+            <div class="inputBorder"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="pass">كلمة المرور</label>
+            <input type="password" class="form-control" id="pass" >
+            <i class="fas fa-check"></i>
+            <div class="inputBorder"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPass">تأكيد كلمة المرور</label>
+            <input type="password" class="form-control" id="confirmPass" >
+            <i class="fas fa-check"></i>
+            <div class="inputBorder"></div>
+        </div>
+
+
+        <button type="submit" class="animateBtn mt-4">
+            تسجيل
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <a href="login.html" class="createAcc">لديك حساب ؟ <span>تسجيل الدخول</span></a>
+
+    </form>
+</div>
+<!--end auth form-->
+
+
+
+<!-- start scroll-top-->
+<div id="scroll-top" class="text-center">
+    <i class="fas fa-angle-up"></i>
+</div>
+<!-- end scroll-top-->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+
+</body>
+</html>

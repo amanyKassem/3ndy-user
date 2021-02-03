@@ -10,8 +10,12 @@ $(document).ready(function () {
     });
 
     // header active link
-    $(".menuLinks li a").click(function () {
+    $(".menuLinks li a[data-value]").click(function () {
+        $("html , body").animate({
+            scrollTop: $("#" + $(this).data("value")).offset().top - 100
+        }, 1000);
         $(this).parent().addClass("active").siblings().removeClass("active");
+        event.preventDefault();
     });
 
     // toggle menu
@@ -28,6 +32,20 @@ $(document).ready(function () {
         $(this).removeAttr("style");
         $(".menu").removeClass("ulDir");
     });
+
+
+
+    // sliders
+    $('#owl-demo').owlCarousel({
+        center: true,
+        items: 1,
+        dots: true,
+        animateOut: 'fadeOut',
+        autoplay: true,
+        loop: true
+    });
+
+
 
     //scroll top
     var scrollButton = $("#scroll-top");

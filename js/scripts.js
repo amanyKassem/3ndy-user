@@ -12,7 +12,7 @@ $(document).ready(function () {
     // header active link
     $(".menuLinks li a[data-value]").click(function () {
         $("html , body").animate({
-            scrollTop: $("#" + $(this).data("value")).offset().top - 100
+            scrollTop: $("#" + $(this).data("value")).offset().top - 140
         }, 1000);
         $(this).parent().addClass("active").siblings().removeClass("active");
         event.preventDefault();

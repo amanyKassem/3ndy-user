@@ -825,8 +825,8 @@ header .menu .lang img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 30px 0;
-  margin-bottom: 60px;
+  padding: 60px 0;
+  margin-bottom: 35px;
 }
 .providers .providersBlock {
   display: flex;
@@ -864,6 +864,21 @@ header .menu .lang img {
   z-index: 0;
   top: 0;
 }
+.providers .providersBlock .provider .fa-heart {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  left: 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+}
+.providers .providersBlock .provider .fa-heart.fav {
+  color: #FF8BBC;
+}
 .providers .providersBlock .provider .provInfo {
   position: relative;
   color: #fff;
@@ -879,7 +894,7 @@ header .menu .lang img {
   justify-content: center;
 }
 .providers .providersBlock .provider .provInfo .info h4 {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
@@ -889,7 +904,11 @@ header .menu .lang img {
 }
 .providers .providersBlock .provider .provInfo .info h5 {
   color: #ffffffb5;
-  font-size: 15px;
+  font-size: 16px;
+}
+.providers .providersBlock .provider .provInfo .info h5.price {
+  color: #FF8BBC;
+  font-weight: bold;
 }
 .providers .providersBlock .provider .provInfo .rate {
   color: #f6b933;
@@ -923,6 +942,14 @@ header .menu .lang img {
   background: #fef9fc;
 }
 
+.profileBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0;
+  margin-bottom: 35px;
+}
 /* end providers */
 /* start contactUs */
 .contactUs {

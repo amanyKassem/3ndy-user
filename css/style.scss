@@ -966,8 +966,8 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 30px 0;
-  margin-bottom: 60px;
+  padding: 60px 0;
+  margin-bottom: 35px;
 
   .providersBlock{
 
@@ -1009,6 +1009,24 @@ header {
         top: 0;
       }
 
+      .fa-heart {
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        z-index: 1;
+        top: 15px;
+        left: 15px;
+        cursor: pointer;
+        -webkit-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+
+        &.fav{
+          color: $rose;
+        }
+
+      }
+
       .provInfo{
 
         position: relative;
@@ -1019,13 +1037,14 @@ header {
         display: flex;
         justify-content: space-between;
 
+
         .info{
           display: flex;
           flex-direction: column;
           justify-content: center;
 
           h4{
-            font-size: 18px;
+            font-size: 19px;
             font-weight: bold;
             white-space: nowrap;
             overflow: hidden;
@@ -1036,7 +1055,12 @@ header {
 
           h5{
             color: #ffffffb5;
-            font-size: 15px;
+            font-size: 16px;
+
+            &.price{
+              color: $rose;
+              font-weight: bold;
+            }
           }
         }
 
@@ -1079,6 +1103,25 @@ header {
       }
     }
   }
+
+}
+
+.profileBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0;
+  margin-bottom: 35px;
+
+  .profileCard{
+    .profileInfo{
+      .profileImg{
+
+      }
+    }
+  }
+
 
 }
 

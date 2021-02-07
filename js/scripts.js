@@ -34,6 +34,11 @@ $(document).ready(function () {
     });
 
 
+    // toggle fav
+    $(".favBlock .fa-heart").click(function () {
+        $(this).toggleClass("fav");
+    });
+
 
     // sliders
     $('#owl-demo').owlCarousel({

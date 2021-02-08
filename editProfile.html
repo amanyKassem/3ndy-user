@@ -108,45 +108,37 @@
 <div class="container">
     <div class="profileBlock" >
         <h2 class="mainTitle">
-            الصفحة الشخصية
+            تعديل الصفحة الشخصية
             <img src="img/vector.svg" alt="vector">
         </h2>
         <p class="mainP">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد</p>
 
-        <div class="profileCard">
-            <div class="profileInfo">
-                <img src="img/pic.jpg" alt="profile image" class="profileImg rounded-circle">
-                <div class="info">
-                    <h4>أماني قاسم</h4>
-                    <h5>0123456789</h5>
-                    <a  class="editPass">
-                        تعديل كلمة المرور
+        <div class="editPassBlock d-block">
+
+            <form action="profile.html">
+
+                <div class="changeImg">
+                    <a class="change">
+                        <img src="img/pic.jpg" alt="profile" class="rounded-circle">
+                        <input class="file-upload" type="file" accept="image/*"/>
+                        <i class="fas fa-plus"></i>
                     </a>
+                    <span>تغيير الصورة الشخصيه</span>
                 </div>
-            </div>
-            <a href="editProfile.html" class="roseBtn editProfile">تعديل</a>
-        </div>
 
 
-        <div class="editPassBlock">
-
-            <h4 class="editPass">
-                تعديل كلمة المرور
-            </h4>
-
-            <form action="">
                 <div class="form-group">
-                    <label for="pass">كلمة المرور الجديدة</label>
-                    <input type="password" class="form-control" id="pass" >
+                    <label for="username">اسم المستخدم</label>
+                    <input type="tel" class="form-control" id="username" >
                 </div>
 
                 <div class="form-group">
-                    <label for="confirmPass">تأكيد كلمة المرور الجديدة</label>
-                    <input type="password" class="form-control" id="confirmPass" >
+                    <label for="phone">رقم الجوال</label>
+                    <input type="tel" class="form-control" id="phone" >
                 </div>
 
 
-                <button type="submit" class="roseBtn confirmPass mb-0">
+                <button type="submit" class="roseBtn mb-0">
                     تأكيد
                 </button>
             </form>

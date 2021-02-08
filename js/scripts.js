@@ -40,6 +40,30 @@ $(document).ready(function () {
     });
 
 
+    // toggle edit pass block
+    $(".editPass , .confirmPass").click(function () {
+        $('.editPassBlock').fadeToggle();
+    });
+
+    // upload profile image
+    var readURL = function(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.changeImg img').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+
+    $(".file-upload").on('change', function(){
+        readURL(this);
+    });
+
+
     // sliders
     $('#owl-demo').owlCarousel({
         center: true,

@@ -941,7 +941,54 @@ header .menu .lang img {
 .providers .more.hvr-shutter-in-vertical:before {
   background: #fef9fc;
 }
+.providers .provInfo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 55px;
+}
+.providers .provInfo img {
+  width: 140px;
+  height: 140px;
+  padding: 3px;
+  border: 1px solid #FF8BBC;
+  margin-left: 25px;
+}
+.providers .provInfo .info h4 {
+  color: #2D489C;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.providers .provInfo .info .rate {
+  display: flex;
+  align-items: center;
+}
+.providers .provInfo .info .rate .active {
+  color: #f6b933;
+}
+.providers .provInfo .info .rate .fa-star {
+  margin-left: 2px;
+  font-size: 15px;
+}
+.providers .provInfo .info .rate .fa-star.far {
+  color: #a7a7a7;
+}
+.providers .provInfo .info .whats {
+  background-color: #64b161;
+  padding: 5px 9px;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.providers .provInfo .info .whats i {
+  font-size: 27px;
+  margin-left: 7px;
+}
 
+/* end providers */
+/* start profile */
 .profileBlock {
   display: flex;
   justify-content: center;
@@ -950,7 +997,151 @@ header .menu .lang img {
   padding: 60px 0;
   margin-bottom: 35px;
 }
-/* end providers */
+.profileBlock .profileCard {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.18);
+  -o-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.18);
+  padding: 25px;
+  border-radius: 20px;
+}
+.profileBlock .profileCard .profileInfo {
+  display: flex;
+  align-items: center;
+}
+.profileBlock .profileCard .profileInfo .profileImg {
+  width: 140px;
+  height: 140px;
+  padding: 3px;
+  border: 1px solid #FF8BBC;
+  margin-left: 25px;
+}
+.profileBlock .profileCard .profileInfo .info h4 {
+  color: #2D489C;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.profileBlock .profileCard .profileInfo .info h5 {
+  color: #7e8082;
+  font-size: 18px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.profileBlock .profileCard .profileInfo .info .editPass {
+  color: #2D2D2D;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.profileBlock .profileCard .editProfile {
+  background-color: #ffffff;
+  color: #FF8BBC;
+  border-color: #FF8BBC;
+}
+.profileBlock .profileCard .editProfile:hover {
+  background-color: #FF8BBC;
+  color: #fff;
+}
+.profileBlock .editPassBlock {
+  margin-top: 40px;
+  width: 85%;
+  display: none;
+}
+.profileBlock .editPassBlock .editPass {
+  color: #2D2D2D;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.profileBlock .editPassBlock form {
+  background-color: #fcfcfc;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.18);
+  -o-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.18);
+  padding: 50px 115px;
+  border-radius: 20px;
+}
+.profileBlock .editPassBlock form .changeImg {
+  margin-bottom: 50px;
+}
+.profileBlock .editPassBlock form .changeImg span {
+  color: #7e8082;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+.profileBlock .editPassBlock form .changeImg .change {
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 140px;
+  height: 140px;
+  padding: 3px;
+  border: 1px solid #FF8BBC;
+}
+.profileBlock .editPassBlock form .changeImg .change img {
+  width: 100%;
+  height: 100%;
+}
+.profileBlock .editPassBlock form .changeImg .change .fa-plus {
+  position: absolute;
+  color: #fff;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+}
+.profileBlock .editPassBlock form .changeImg .change:after {
+  position: absolute;
+  content: "";
+  background: #00000078;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.profileBlock .editPassBlock form .changeImg .change .file-upload {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.profileBlock .editPassBlock form .form-group label {
+  color: #2e489c;
+}
+.profileBlock .editPassBlock form .form-group .form-control {
+  color: #7e8082;
+  border-bottom: 1px solid #7e8082;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* end profile */
 /* start contactUs */
 .contactUs {
   display: flex;

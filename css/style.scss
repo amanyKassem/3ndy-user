@@ -646,6 +646,10 @@ header {
         border-radius: 50%;
         border: 1px solid $rose;
       }
+      i{
+        margin-left: 10px;
+        font-size: 20px;
+      }
     }
 
     .lang{
@@ -668,7 +672,7 @@ header {
 
 /* start owl slider */
 
-#owl-demo {
+#owl-demo , #owl-demo2{
   margin: 100px 0 0;
 
   .item{
@@ -1104,11 +1108,11 @@ header {
     }
   }
 
-  .provInfo{
+  .provInformation{
     display: flex;
     align-items: center;
     width: 100%;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 
     img{
       width: 140px;
@@ -1159,6 +1163,188 @@ header {
   }
 
 }
+
+/* start detailsBlock */
+.detailsBlock{
+
+  width: 80%;
+
+  #owl-demo2{
+    margin: 0;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.7);
+    -o-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    overflow: hidden;
+
+
+    .item {
+      height: 350px;
+
+      .fa-heart{
+        position: absolute;
+        z-index: 1;
+        top: 22px;
+        left: 22px;
+        color: #fff;
+        font-size: 30px;
+        transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        &.fav{
+          color: $rose;
+        }
+      }
+
+      &:after {
+        background: #0000004a;
+      }
+
+      .content{
+        justify-content: flex-end;
+        padding: 15px 25px;
+
+        h4{
+          color:#fff;
+          font-weight: bold;
+          font-size: 22px;
+        }
+
+        .price{
+          color: $rose;
+          font-weight: bold;
+          font-size: 22px;
+        }
+
+      }
+
+    }
+
+    .owl-dots {
+      left: 0;
+
+      .owl-dot{
+        width: 10px;
+        height: 5px;
+        border-radius: 10px;
+        &.active {
+          width: 20px;
+          height: 5px;
+        }
+      }
+
+    }
+
+  }
+
+  .info{
+    margin-top: 30px ;
+    width: 70%;
+
+    .descTitle{
+      color: $black;
+      font-size:18px;
+      margin-bottom: 15px;
+    }
+
+    .desc{
+      color: $midGray;
+      font-size: 15px;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    .additions{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .addition{
+        background-color: #f7f7fa;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        min-width: 170px;
+        margin-bottom: 15px;
+
+        img{
+          width: 45px;
+          height: 45px;
+          border-radius: 7px;
+        }
+
+        .additionInfo{
+          flex: 1;
+          text-align: center;
+          .name{
+            color: $black;
+            font-size: 15px;
+            font-weight: bold;
+          }
+
+          .price{
+            color: $rose;
+            font-size: 13px;
+            margin-bottom: 0;
+            font-weight: bold;
+          }
+
+        }
+      }
+
+    }
+    .vedios{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+
+      .videoBlock{
+        width: 110px;
+        height: 115px;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+
+        img{
+          width: 100%;
+          height: 100%;
+        }
+
+        a{
+          position: absolute;
+          top:50%;
+          transform: translateY(-50%);
+          left: 0;
+          right: 0;
+          background-color: $blue;
+          width: 40px;
+          height: 40px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          font-size: 14px;
+          margin: auto;
+          i{
+            color: #fff;
+          }
+        }
+
+      }
+
+
+    }
+
+  }
+
+}
+/* end detailsBlock */
+
 
 /* end providers */
 
@@ -1343,6 +1529,7 @@ header {
 
 }
 /* end profile */
+
 
 /* start contactUs */
 
@@ -1605,6 +1792,11 @@ footer{
           -o-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.18);
         }
 
+        i{
+          margin-left: 20px;
+          font-size: 20px;
+        }
+
         p {
           font-size: 15px;
         }
@@ -1653,6 +1845,63 @@ footer{
 
   }
 
+  #owl-demo{
+    margin: 70px 0 0;
+    .item {
+
+      height: calc(100vh - 70px);
+
+      .content {
+        align-items: center;
+        img {
+          width: 80px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 14px;
+          width: auto;
+          height: 115px;
+          text-align: center;
+        }
+      }
+
+    }
+    .owl-dots {
+      top: auto;
+      transform: none;
+      left: 0;
+      right: 0;
+      bottom: 20px;
+      margin: auto;
+      text-align: center;
+      .owl-dot {
+        height: 5px;
+
+        &.active {
+          width: 25px;
+          height: 5px;
+        }
+      }
+    }
+
+  }
+
+  .homeModals {
+    top: 0;
+    margin: 40px 0;
+
+    .content{
+      display: block;
+      a {
+        flex: 1;
+        border-radius: 10px;
+        height: 95px;
+        margin-bottom: 20px;
+        font-size: 15px;
+      }
+    }
+
+  }
 
 }
 

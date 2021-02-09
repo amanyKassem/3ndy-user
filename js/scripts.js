@@ -35,7 +35,7 @@ $(document).ready(function () {
 
 
     // toggle fav
-    $(".favBlock .fa-heart").click(function () {
+    $(".favBlock .fa-heart , .owl-carousel .item .fa-heart").click(function () {
         $(this).toggleClass("fav");
     });
 
@@ -65,7 +65,7 @@ $(document).ready(function () {
 
 
     // sliders
-    $('#owl-demo').owlCarousel({
+    $('#owl-demo , #owl-demo2').owlCarousel({
         center: true,
         items: 1,
         dots: true,

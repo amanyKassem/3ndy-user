@@ -1113,6 +1113,7 @@ header .menu .lang img {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .detailsBlock .info .vedios .videoBlock img {
   width: 100%;
@@ -1374,7 +1375,7 @@ footer .topFooter ul li a {
   color: #fff;
 }
 footer .topFooter ul li a:hover {
-  color: #FF8BBC;
+  color: #72c2e2;
 }
 footer .topFooter ul.social {
   display: flex;
@@ -1447,11 +1448,80 @@ footer .bottomFooter a {
 /*end scroll-top*/
 /* Start Media Query */
 @media (max-width: 767px) {
+  .layer-preloader img {
+    width: 130px;
+  }
+
+  .authForm .authImg {
+    display: none;
+  }
+  .authForm form {
+    padding: 20px;
+  }
+  .authForm form .logo {
+    width: 100px;
+  }
+  .authForm form h5 {
+    font-size: 16px;
+  }
+  .authForm form p {
+    font-size: 13px;
+    width: 100%;
+  }
+  .authForm form .forget, .authForm form .createAcc {
+    font-size: 15px;
+  }
+  .authForm form .animateBtn {
+    width: 150px;
+    height: 40px;
+  }
+
+  .mainTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .mainTitle img {
+    width: 25px;
+  }
+
+  .mainP {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .roseBtn {
+    width: 150px;
+    font-size: 15px;
+    height: 40px;
+  }
+
+  .modal .modal-dialog {
+    max-width: 100%;
+  }
+  .modal .modal-dialog .modal-content .modal-header {
+    height: 60px;
+  }
+  .modal .modal-dialog .modal-content .modal-header h5 {
+    font-size: 16px;
+  }
+  .modal .modal-dialog .modal-content .modal-header .closeModal i {
+    font-size: 18px;
+  }
+  .modal .modal-dialog .modal-content .modal-body #map {
+    height: 400px;
+  }
+  .modal .modal-dialog .modal-content .modal-body .absoluteBtn {
+    bottom: 20px;
+  }
+  .modal .modal-dialog .modal-content .modal-body .custom-radio, .modal .modal-dialog .modal-content .modal-body .custom-checkbox {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
   form .form-group {
     margin-bottom: 30px;
   }
   form .form-group label {
-    margin-bottom: 15px;
     font-size: 14px;
   }
   form .form-group .form-control {
@@ -1594,7 +1664,7 @@ footer .bottomFooter a {
 
   .homeModals {
     top: 0;
-    margin: 40px 0;
+    margin: 60px 0;
   }
   .homeModals .content {
     display: block;
@@ -1606,9 +1676,277 @@ footer .bottomFooter a {
     margin-bottom: 20px;
     font-size: 15px;
   }
+
+  .aboutSite .shapeMsg {
+    display: block;
+    text-align: center;
+  }
+  .aboutSite .shapeMsg img {
+    width: 150px;
+    margin-bottom: 25px;
+  }
+  .aboutSite .shapeMsg .msgBlock {
+    margin-right: 0;
+    padding: 20px 30px;
+  }
+  .aboutSite .shapeMsg .msgBlock h4 {
+    font-size: 18px;
+  }
+  .aboutSite .shapeMsg .msgBlock p {
+    font-size: 14px;
+  }
+
+  .providers {
+    padding: 40px 0;
+  }
+  .providers .providersBlock .provider {
+    width: 90%;
+    height: 200px;
+    margin: 0 auto 30px;
+  }
+  .providers .providersBlock .provider .provInfo {
+    padding: 15px;
+  }
+  .providers .providersBlock .provider .provInfo .info h4 {
+    font-size: 17px;
+  }
+  .providers .providersBlock .provider .provInfo .info h5 {
+    font-size: 15px;
+  }
+  .providers .providersBlock .provider .provInfo .rate {
+    font-size: 15px;
+  }
+  .providers .providersBlock .provider .fa-heart {
+    font-size: 25px;
+  }
+
+  .contactUs form {
+    width: 100%;
+  }
+
+  #location {
+    height: 400px;
+  }
+
+  footer .iconShape {
+    z-index: -1;
+  }
+  footer .topFooter {
+    padding: 50px 0 25px;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .topFooter > div {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  footer .topFooter > div h5 {
+    font-size: 18px;
+  }
+  footer .topFooter > div .logo {
+    width: 100px;
+  }
+  footer .topFooter > div ul li {
+    text-align: center;
+  }
+  footer .topFooter > div ul li a {
+    justify-content: center;
+  }
+  footer .bottomFooter {
+    display: block;
+  }
+  footer .bottomFooter a {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .introImg {
+    margin-top: 70px;
+    height: 175px;
+  }
+  .introImg img {
+    width: 100px;
+  }
+
+  .profileBlock {
+    margin-bottom: 0;
+  }
+  .profileBlock .editPassBlock {
+    margin-top: 0;
+    width: 100%;
+  }
+  .profileBlock .editPassBlock .editPass {
+    font-size: 17px;
+    margin: 40px auto;
+  }
+  .profileBlock .editPassBlock form {
+    padding: 50px 20px;
+  }
+  .profileBlock .editPassBlock form .changeImg .change {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+  .profileBlock .editPassBlock form .changeImg .change .fa-plus {
+    font-size: 15px;
+  }
+  .profileBlock .profileCard {
+    width: 100%;
+  }
+  .profileBlock .profileCard .profileInfo {
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+  }
+  .profileBlock .profileCard .profileInfo .profileImg {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+  }
+  .profileBlock .profileCard .profileInfo .info {
+    text-align: center;
+  }
+  .profileBlock .profileCard .profileInfo .info h4 {
+    font-size: 17px;
+  }
+  .profileBlock .profileCard .profileInfo .info h5 {
+    font-size: 16px;
+  }
+  .profileBlock .profileCard .profileInfo .info .editPass {
+    font-size: 15px;
+  }
+  .profileBlock .profileCard .editProfile {
+    margin: 30px auto 0;
+  }
+
+  .providers .provInformation {
+    justify-content: center;
+  }
+  .providers .provInformation img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  .providers .provInformation .info h4 {
+    font-size: 18px;
+  }
+  .providers .provInformation .info .rate .fa-star {
+    font-size: 12px;
+  }
+  .providers .provInformation .info .whats {
+    font-size: 13px;
+  }
+  .providers .provInformation .info .whats i {
+    font-size: 20px;
+  }
+
+  .detailsBlock {
+    width: 100%;
+  }
+  .detailsBlock #owl-demo2 .item {
+    height: 320px;
+  }
+  .detailsBlock #owl-demo2 .item .fa-heart {
+    font-size: 25px;
+  }
+  .detailsBlock #owl-demo2 .item .content h4, .detailsBlock #owl-demo2 .item .content .price {
+    font-size: 20px;
+  }
+  .detailsBlock .info {
+    width: 100%;
+  }
+  .detailsBlock .info .vedios .videoBlock {
+    width: 45%;
+    margin-bottom: 25px;
+  }
 }
 /*Small Screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .authForm form {
+    padding: 20px;
+  }
+  .authForm form p {
+    width: 100%;
+  }
+
+  header {
+    height: 120px;
+  }
+  header .menu {
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .menu > div:first-of-type {
+    margin-bottom: 7px;
+  }
+
+  #owl-demo {
+    margin: 120px 0 0;
+  }
+  #owl-demo .item {
+    height: calc(100vh - 120px);
+  }
+
+  .aboutSite .shapeMsg {
+    display: block;
+  }
+  .aboutSite .shapeMsg img {
+    width: 220px;
+    display: block;
+    margin: 0 auto 30px;
+  }
+  .aboutSite .msgBlock {
+    margin-right: 0;
+  }
+
+  .providers .providersBlock .provider {
+    width: 48%;
+    height: 270px;
+  }
+
+  .contactUs form {
+    width: 85%;
+  }
+
+  #location {
+    height: 450px;
+  }
+
+  .introImg {
+    margin-top: 120px;
+  }
+}
 /*Medium Screen*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .authForm form {
+    padding: 20px;
+  }
+  .authForm form p {
+    width: 100%;
+  }
+
+  header {
+    height: 120px;
+  }
+  header .menu {
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .menu > div:first-of-type {
+    margin-bottom: 7px;
+  }
+
+  #owl-demo {
+    margin: 120px 0 0;
+  }
+  #owl-demo .item {
+    height: calc(100vh - 120px);
+  }
+
+  .introImg {
+    margin-top: 120px;
+  }
+}
 /*Larger Screen*/
 /* End Media Query */
 

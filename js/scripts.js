@@ -64,17 +64,6 @@ $(document).ready(function () {
     });
 
 
-    // sliders
-    $('#owl-demo , #owl-demo2').owlCarousel({
-        center: true,
-        items: 1,
-        dots: true,
-        animateOut: 'fadeOut',
-        autoplay: true,
-        loop: true
-    });
-
-
 
     //scroll top
     var scrollButton = $("#scroll-top");

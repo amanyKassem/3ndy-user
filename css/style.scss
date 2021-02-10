@@ -1310,6 +1310,7 @@ header {
         border-radius: 10px;
         position: relative;
         overflow: hidden;
+        margin-bottom: 20px;
 
         img{
           width: 100%;
@@ -1617,7 +1618,7 @@ footer{
         a{
           color: #fff;
           &:hover{
-            color: $rose;
+            color: #72c2e2;
           }
         }
       }
@@ -1706,11 +1707,104 @@ footer{
 
 @media(max-width: 767px) {
 
+  .layer-preloader {
+    img {
+      width: 130px;
+    }
+  }
+
+  .authForm {
+    .authImg {
+      display: none;
+    }
+
+    form {
+      padding: 20px;
+      .logo {
+        width: 100px;
+      }
+
+      h5 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 13px;
+        width: 100%;
+      }
+
+      .forget, .createAcc {
+        font-size: 15px;
+      }
+
+      .animateBtn {
+        width: 150px;
+        height: 40px;
+      }
+
+    }
+
+  }
+
+
+  .mainTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    img {
+      width: 25px;
+    }
+  }
+
+  .mainP {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .roseBtn {
+    width: 150px;
+    font-size: 15px;
+    height: 40px;
+  }
+
+  .modal {
+    .modal-dialog {
+      max-width: 100%;
+      .modal-content {
+        .modal-header {
+          height: 60px;
+          h5 {
+            font-size: 16px;
+          }
+          .closeModal {
+            i {
+              font-size: 18px;
+            }
+          }
+        }
+
+        .modal-body {
+          #map {
+            height: 400px;
+          }
+          .absoluteBtn {
+            bottom: 20px;
+          }
+
+          .custom-radio, .custom-checkbox {
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+          }
+
+        }
+
+      }
+    }
+  }
+
   form {
     .form-group {
       margin-bottom: 30px;
       label {
-        margin-bottom: 15px;
         font-size: 14px;
       }
 
@@ -1720,6 +1814,7 @@ footer{
         font-size: 13px;
       }
     }
+
   }
 
   header {
@@ -1888,7 +1983,7 @@ footer{
 
   .homeModals {
     top: 0;
-    margin: 40px 0;
+    margin: 60px 0;
 
     .content{
       display: block;
@@ -1903,17 +1998,364 @@ footer{
 
   }
 
+  .aboutSite {
+    .shapeMsg {
+      display: block;
+      text-align: center;
+      img {
+        width: 150px;
+        margin-bottom: 25px;
+      }
+
+
+      .msgBlock {
+        margin-right: 0;
+        padding: 20px 30px;
+
+        h4 {
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+
+    }
+  }
+
+  .providers {
+    padding: 40px 0;
+    .providersBlock {
+      .provider {
+        width: 90%;
+        height: 200px;
+        margin: 0 auto 30px;
+
+        .provInfo {
+          padding: 15px;
+          .info {
+            h4 {
+              font-size: 17px;
+            }
+            h5 {
+              font-size: 15px;
+            }
+          }
+
+          .rate {
+            font-size: 15px;
+          }
+        }
+
+        .fa-heart {
+          font-size: 25px;
+        }
+
+      }
+    }
+  }
+
+  .contactUs {
+    form {
+      width: 100%;
+    }
+  }
+
+  #location {
+    height: 400px;
+  }
+
+  footer {
+    .iconShape {
+      z-index: -1;
+    }
+    .topFooter {
+      padding: 50px 0 25px;
+      flex-direction: column;
+      align-items: center;
+
+      > div {
+        text-align: center;
+        margin-bottom: 30px;
+        h5 {
+          font-size: 18px;
+        }
+        .logo {
+          width: 100px;
+        }
+
+        ul {
+          li {
+            text-align: center;
+            a {
+              justify-content: center;
+            }
+          }
+        }
+
+      }
+
+    }
+
+    .bottomFooter {
+      display: block;
+      a {
+        margin-right: 0;
+        justify-content: center;
+      }
+    }
+  }
+
+  .introImg {
+    margin-top: 70px;
+    height: 175px;
+    img {
+      width: 100px;
+    }
+  }
+
+  .profileBlock {
+    margin-bottom: 0;
+    .editPassBlock {
+      margin-top: 0;
+      width: 100%;
+
+      .editPass {
+        font-size: 17px;
+        margin: 40px auto;
+      }
+
+      form {
+        padding: 50px 20px;
+
+        .changeImg {
+          .change {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+
+            .fa-plus {
+              font-size: 15px;
+            }
+
+          }
+        }
+
+      }
+    }
+
+    .profileCard {
+      width: 100%;
+      .profileInfo {
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+
+        .profileImg {
+          width: 100px;
+          height: 100px;
+          margin: 0 auto 20px;
+        }
+
+        .info {
+          text-align: center;
+          h4 {
+            font-size: 17px;
+          }
+          h5 {
+            font-size: 16px;
+          }
+          .editPass {
+            font-size: 15px;
+          }
+        }
+
+      }
+
+      .editProfile {
+        margin: 30px auto 0;
+      }
+
+    }
+
+  }
+
+  .providers {
+    .provInformation {
+      justify-content: center;
+      img {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+      }
+      .info {
+        h4 {
+          font-size: 18px;
+        }
+        .rate {
+          .fa-star {
+            font-size: 12px;
+          }
+        }
+
+        .whats {
+          font-size: 13px;
+          i {
+            font-size: 20px;
+          }
+        }
+
+      }
+    }
+  }
+
+  .detailsBlock {
+    width: 100%;
+    #owl-demo2 {
+      .item {
+        height: 320px;
+        .fa-heart {
+          font-size: 25px;
+        }
+        .content {
+          h4 , .price{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .info {
+      width: 100%;
+      .vedios {
+        .videoBlock {
+          width: 45%;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+
 }
 
 /*Small Screen*/
 
 @media(min-width: 768px) and (max-width: 991px) {
 
+  .authForm {
+    form {
+      padding: 20px;
+      p {
+        width: 100%;
+      }
+    }
+  }
+
+  header {
+    height: 120px;
+    .menu {
+      justify-content: center;
+      flex-direction: column;
+
+      > div{
+        &:first-of-type {
+          margin-bottom: 7px;
+        }
+      }
+
+    }
+  }
+
+  #owl-demo{
+    margin: 120px 0 0;
+
+    .item {
+      height: calc(100vh - 120px);
+    }
+
+  }
+
+  .aboutSite {
+    .shapeMsg {
+      display: block;
+      img {
+        width: 220px;
+        display: block;
+        margin: 0 auto 30px;
+      }
+    }
+
+    .msgBlock {
+      margin-right: 0;
+    }
+
+  }
+
+  .providers {
+    .providersBlock {
+      .provider {
+        width: 48%;
+        height: 270px;
+      }
+    }
+  }
+
+  .contactUs {
+    form {
+      width: 85%;
+    }
+  }
+
+  #location {
+    height: 450px;
+  }
+
+  .introImg {
+    margin-top: 120px;
+  }
+
 }
 
 /*Medium Screen*/
 
 @media(min-width: 992px) and (max-width: 1199px) {
+
+  .authForm {
+    form {
+      padding: 20px;
+      p {
+        width: 100%;
+      }
+    }
+  }
+
+  header {
+    height: 120px;
+    .menu {
+      justify-content: center;
+      flex-direction: column;
+
+      > div{
+        &:first-of-type {
+          margin-bottom: 7px;
+        }
+      }
+
+    }
+  }
+
+  #owl-demo{
+    margin: 120px 0 0;
+
+    .item {
+      height: calc(100vh - 120px);
+    }
+
+  }
+
+  .introImg {
+    margin-top: 120px;
+  }
+
 }
 
 @media(min-width: 1200px){

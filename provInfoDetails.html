@@ -57,7 +57,7 @@
 
 
             <div class="d-flex align-items-center">
-                <a href="index.html" class="d-none d-md-block mr-18">
+                <a href="index.html" class="d-none d-md-block">
                     <img src="img/logo.svg" class="logo" alt="logo">
                 </a>
 
@@ -358,6 +358,18 @@
 <script src="js/scripts.js"></script>
 <script>
     new WOW().init();
+</script>
+
+<script>
+    // slider
+    $('#owl-demo2').owlCarousel({
+        center: true,
+        items: 1,
+        dots: true,
+        animateOut: 'fadeOut',
+        autoplay: true,
+        loop: true
+    });
 </script>
 
 </body>

@@ -49,6 +49,16 @@ body {
 
 form .form-group .form-control {
   text-align: left;
+  padding: 0 25px 0 0;
+}
+
+.authForm form .form-group .fa-check {
+  right: 0;
+  left: auto;
+}
+.authForm form .forget span, .authForm form .createAcc span {
+  margin-left: 7px;
+  margin-right: 0;
 }
 
 header .menu .menuLinks li {
@@ -59,7 +69,7 @@ header .menu .profile {
   margin-left: 25px;
   margin-right: 0;
 }
-header .menu .profile img {
+header .menu .profile img, header .menu .profile i {
   margin-right: 10px;
   margin-left: 0;
 }
@@ -85,9 +95,64 @@ header .menu .lang img {
   transform: rotateY(-180deg);
 }
 
+#owl-demo .item .content, #owl-demo2 .item .content {
+  align-items: flex-start;
+}
+#owl-demo .owl-dots, #owl-demo2 .owl-dots {
+  left: auto;
+  right: 75px;
+}
+
+.detailsBlock #owl-demo2 .item .fa-heart {
+  right: 22px;
+  left: auto;
+}
+.detailsBlock #owl-demo2 .owl-dots {
+  left: auto;
+  right: 0;
+}
+
 .providers .providersBlock .provider .fa-heart {
   right: 15px;
   left: auto;
+}
+.providers .provInformation img {
+  margin-left: 0;
+  margin-right: 25px;
+}
+.providers .provInformation .info .whats i {
+  margin-right: 7px;
+  margin-left: 0;
+}
+
+.modal .modal-dialog .modal-content .modal-header .closeModal {
+  right: 24px;
+  left: auto;
+}
+.modal .modal-dialog .modal-content .modal-body .custom-radio, .modal .modal-dialog .modal-content .modal-body .custom-checkbox {
+  padding-left: 1.5rem;
+  padding-right: 0;
+}
+
+.aboutSite .shapeMsg img {
+  transform: rotateY(-180deg);
+}
+.aboutSite .shapeMsg .msgBlock {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.profileBlock .profileCard .profileInfo .profileImg {
+  margin-right: 25px;
+  margin-left: 0;
+}
+
+footer .iconShape {
+  transform: rotateY(-180deg);
+}
+footer .bottomFooter a {
+  margin-left: 5px;
+  margin-right: 0;
 }
 
 @media (max-width: 767px) {
@@ -101,7 +166,7 @@ header .menu .lang img {
     left: 0;
     right: auto;
   }
-  header .menu .user img {
+  header .menu .user img, header .menu .user i {
     margin-right: 20px;
     margin-left: 0;
   }
@@ -111,6 +176,23 @@ header .menu .lang img {
   header .menu .lang {
     margin-left: 5px;
     margin-right: 0;
+  }
+
+  #owl-demo .item .content {
+    align-items: center;
+  }
+  #owl-demo .owl-dots {
+    left: 0;
+    right: 0;
+  }
+
+  .aboutSite .shapeMsg .msgBlock {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .aboutSite .shapeMsg .msgBlock {
+    margin-left: 0;
   }
 }
 

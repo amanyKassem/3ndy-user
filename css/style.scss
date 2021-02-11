@@ -1641,7 +1641,7 @@ footer{
             font-size: 14px;
             &:hover{
               transform: rotate(360deg);
-              color: $rose;
+              color: #72c2e2;
             }
           }
         }
@@ -1666,6 +1666,11 @@ footer{
     a{
       color: #fff;
       margin-right: 5px;
+
+      &:hover{
+        color: $rose;
+      }
+
     }
   }
 }

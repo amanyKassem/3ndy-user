@@ -1397,7 +1397,7 @@ footer .topFooter ul.social li a {
 }
 footer .topFooter ul.social li a:hover {
   transform: rotate(360deg);
-  color: #FF8BBC;
+  color: #72c2e2;
 }
 footer .topFooter p {
   margin-bottom: 20px;
@@ -1416,6 +1416,9 @@ footer .bottomFooter {
 footer .bottomFooter a {
   color: #fff;
   margin-right: 5px;
+}
+footer .bottomFooter a:hover {
+  color: #FF8BBC;
 }
 
 /* end footer */

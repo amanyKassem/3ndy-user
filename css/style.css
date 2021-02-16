@@ -985,6 +985,7 @@ header .menu .lang img {
   font-size: 15px;
   margin-top: 15px;
   border-radius: 20px;
+  width: max-content;
 }
 .providers .provInformation .info .whats i {
   font-size: 27px;
